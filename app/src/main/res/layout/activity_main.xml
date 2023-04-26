@@ -67,108 +67,111 @@
         android:id="@+id/bt1"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="16dp"
         android:textColor="@color/black"
         android:textSize="64sp"
         app:layout_constraintBottom_toTopOf="@+id/d1"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/bt2"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="16dp"
         android:textColor="@color/black"
         android:textSize="64sp"
         app:layout_constraintBottom_toTopOf="@+id/d1"
-        app:layout_constraintStart_toEndOf="@+id/d3" />
+        app:layout_constraintStart_toEndOf="@+id/d3"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/bt3"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="16dp"
         android:textColor="@color/black"
         android:textSize="64sp"
         app:layout_constraintBottom_toTopOf="@+id/d1"
-        app:layout_constraintStart_toEndOf="@+id/d4" />
+        app:layout_constraintStart_toEndOf="@+id/d4"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/bt4"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="32dp"
-        android:layout_marginBottom="32dp"
         android:textColor="@color/black"
         android:textSize="64sp"
         app:layout_constraintBottom_toBottomOf="@+id/d2"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d1" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/bt5"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="32dp"
-        android:layout_marginBottom="32dp"
         android:textColor="@color/black"
         android:textSize="64sp"
         app:layout_constraintBottom_toBottomOf="@+id/d2"
-        app:layout_constraintStart_toEndOf="@+id/d3" />
+        app:layout_constraintStart_toEndOf="@+id/d3"
+        app:layout_constraintTop_toBottomOf="@+id/d1" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/bt6"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="32dp"
-        android:layout_marginBottom="32dp"
         android:textColor="@color/black"
         android:textSize="64sp"
         app:layout_constraintBottom_toBottomOf="@+id/d2"
-        app:layout_constraintStart_toEndOf="@+id/d4" />
+        app:layout_constraintStart_toEndOf="@+id/d4"
+        app:layout_constraintTop_toBottomOf="@+id/d1" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/bt7"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="32dp"
-        android:layout_marginBottom="16dp"
         android:textColor="@color/black"
         android:textSize="64sp"
-        app:layout_constraintBottom_toBottomOf="@+id/d3"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt4" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/bt8"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="32dp"
-        android:layout_marginBottom="16dp"
         android:textColor="@color/black"
         android:textSize="64sp"
-        app:layout_constraintBottom_toBottomOf="@+id/d3"
-        app:layout_constraintStart_toEndOf="@+id/d3" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/d3"
+        app:layout_constraintTop_toBottomOf="@+id/d2" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/bt9"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="32dp"
-        android:layout_marginBottom="16dp"
         android:textColor="@color/black"
         android:textSize="64sp"
-        app:layout_constraintBottom_toBottomOf="@+id/d4"
-        app:layout_constraintStart_toEndOf="@+id/d4" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/d4"
+        app:layout_constraintTop_toBottomOf="@+id/d2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
